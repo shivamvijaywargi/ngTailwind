@@ -171,23 +171,23 @@ Next, let’s modify our `tailwind.config.js` file to purge any unused classes. 
 <br />
 
 ```
-+require('dotenv').config();
-+const enablePurge = process.env.ENABLE_PURGE || false;
-module.exports = {
--  purge: [],
-+  purge: {
-+    enabled: enablePurge,
-+    content: [
-+      './src/**/*.html',
-+      './src/**/*.scss'
-+    ]
-+  },
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [],
-}
++ require('dotenv').config();
++ const enablePurge = process.env.ENABLE_PURGE || false;
+  module.exports = {
+-   purge: [],
++   purge: {
++     enabled: enablePurge,
++     content: [
++       './src/**/*.html',
++       './src/**/*.scss'
++     ]
++   },
+    theme: {
+      extend: {},
+    },
+    variants: {},
+    plugins: [],
+  }
 ```
 
 <br />
