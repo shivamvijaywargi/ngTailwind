@@ -2,6 +2,14 @@
 
 ![ngTailwind - Angular with TailwindCSS](./images/ngTailwindcss.png)
 
+<br />
+
+### **Firstly, a huge thanks to Jacob Neterer for the original medium article on this**
+
+Please check out his tutorial on [Medium](https://medium.com/@jacobneterer/angular-and-tailwindcss-2388fb6e0bab)
+
+<br />
+
 ## **Create Your Angular App**
 
 First, let’s create our angular application
